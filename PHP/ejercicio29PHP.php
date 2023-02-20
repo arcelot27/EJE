@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body  class="text-bg-light p-3">
-    <div class="container-md"><br><br><br>
+    <div class="container-lg"><br><br><br>
         <div class="text-bg-dark p-3">
             <form action=" " method="get" class="container-fluid" >
                 <div class="mb-3 row">
@@ -29,11 +29,11 @@
                         <input class="form-control" type="text"  name="operacion" aria-label="Disabled input example">
                     </div>
                 </div>
-                <center><input type="submit" class="btn btn-light" value="verificar datos"></center>
+                <input type="submit" class="btn btn-light" value="verificar datos">
             </form>
         </div>
 
-        </div>
+    </div>
         
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
@@ -63,7 +63,7 @@ function operaciones ($n1,$n2, $operacion)
                     }
                     else
                         {
-                            print("error");
+                            print("operación no valida");
                         }
         return $resultado;
     }
